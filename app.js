@@ -33,6 +33,8 @@ async function init(){
   $("#matchup").onchange=matchupChanged;
   $("#save").onclick=addNote;
   $("#export").onclick=exportNotes;
+  const setupBtn=$("#githubSetup");
+  if(setupBtn)setupBtn.onclick=setupGithub;
 
   weekChanged();
   render();
@@ -197,7 +199,7 @@ async function syncUnsynced(){
 async function setupGithub(){
   const current=localStorage.getItem(GH_TOKEN_KEY)||"";
   const token=prompt(
-    "Pega tu Fine-grained GitHub token para el repo mobile-notes.\\n"+
+    "Pega tu Fine-grained GitHub token para el repo mobile-notes.\n"+
     "Se guarda SOLO en este telefono. No lo compartas por chat.",
     current
   );
