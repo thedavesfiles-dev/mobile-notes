@@ -1,5 +1,5 @@
-const CACHE="team-archetype-field-notes-v4";
-const FILES=["./","index.html","styles.css?v=4","app.js?v=4","schedule_2026.json","manifest.webmanifest","icon.svg"];
+const CACHE="team-archetype-field-notes-v5";
+const FILES=["./","index.html","styles.css?v=5","app.js?v=5","schedule_2026.json","manifest.webmanifest","icon.svg"];
 
 self.addEventListener("install",event=>{
   event.waitUntil(
