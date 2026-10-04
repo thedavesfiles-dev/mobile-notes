@@ -6,7 +6,7 @@
 <meta name="theme-color" content="#12181d">
 <title>Team Archetype Lab · Field Notes</title>
 <link rel="manifest" href="manifest.webmanifest">
-<link rel="stylesheet" href="styles.css?v=2">
+<link rel="stylesheet" href="styles.css?v=4">
 <link rel="icon" href="icon.svg" type="image/svg+xml">
 </head>
 <body class="field-notes">
@@ -45,13 +45,13 @@
     <label>ASSIGN TO</label>
     <div id="assignTeams" class="assign-teams"></div>
 
-    <button id="save" class="primary">GUARDAR NOTA</button>
+    <button id="save" class="primary">GUARDAR Y SINCRONIZAR</button>
     <div id="savedFlash" class="flash"></div>
   </section>
 
   <section class="toolbar">
-    <div><b id="pendingCount">0</b> pendientes</div>
-    <button id="export" class="secondary">EXPORTAR PENDIENTES</button>
+    <div><b id="pendingCount">0</b> sin sincronizar</div>
+    <div class="sync-actions"><button id="githubSetup" class="secondary">CONFIGURAR GITHUB</button><button id="export" class="secondary">EXPORTAR BACKUP</button></div>
   </section>
 
   <section id="notes"></section>
@@ -60,10 +60,10 @@
     <b>Flujo</b>
     <p>Semana → partido → unidad → observación → asignar a uno o a los dos equipos.</p>
     <p>Week y rival se guardan automáticamente. Ya no hay que escribir nombres de equipos a mano.</p>
-    <p>En casa: Exportar pendientes → Team Archetype Lab → Import Mobile Notes.</p>
+    <p>En Team Archetype Lab: pulsa ACTUALIZAR NOTAS. Solo entran las nuevas.</p>
   </section>
 </main>
 
-<script src="app.js?v=2"></script>
+<script src="app.js?v=4"></script>
 </body>
 </html>

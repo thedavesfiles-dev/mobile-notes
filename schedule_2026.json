@@ -2,20 +2,110 @@
   "season": 2026,
   "source": "fallback_week_4",
   "games": [
-    {"week":4,"away":"IND","home":"WAS","game_id":"2026_04_IND_WAS","kickoff":""},
-    {"week":4,"away":"ARI","home":"NYG","game_id":"2026_04_ARI_NYG","kickoff":""},
-    {"week":4,"away":"NE","home":"BUF","game_id":"2026_04_NE_BUF","kickoff":""},
-    {"week":4,"away":"NYJ","home":"CHI","game_id":"2026_04_NYJ_CHI","kickoff":""},
-    {"week":4,"away":"DAL","home":"HOU","game_id":"2026_04_DAL_HOU","kickoff":""},
-    {"week":4,"away":"LAR","home":"PHI","game_id":"2026_04_LAR_PHI","kickoff":""},
-    {"week":4,"away":"GB","home":"TB","game_id":"2026_04_GB_TB","kickoff":""},
-    {"week":4,"away":"TEN","home":"BAL","game_id":"2026_04_TEN_BAL","kickoff":""},
-    {"week":4,"away":"JAX","home":"CIN","game_id":"2026_04_JAX_CIN","kickoff":""},
-    {"week":4,"away":"MIA","home":"MIN","game_id":"2026_04_MIA_MIN","kickoff":""},
-    {"week":4,"away":"KC","home":"LV","game_id":"2026_04_KC_LV","kickoff":""},
-    {"week":4,"away":"LAC","home":"SEA","game_id":"2026_04_LAC_SEA","kickoff":""},
-    {"week":4,"away":"DEN","home":"SF","game_id":"2026_04_DEN_SF","kickoff":""},
-    {"week":4,"away":"DET","home":"CAR","game_id":"2026_04_DET_CAR","kickoff":""},
-    {"week":4,"away":"ATL","home":"NO","game_id":"2026_04_ATL_NO","kickoff":""}
+    {
+      "week": 4,
+      "away": "IND",
+      "home": "WAS",
+      "game_id": "2026_04_IND_WAS",
+      "kickoff": ""
+    },
+    {
+      "week": 4,
+      "away": "ARI",
+      "home": "NYG",
+      "game_id": "2026_04_ARI_NYG",
+      "kickoff": ""
+    },
+    {
+      "week": 4,
+      "away": "NE",
+      "home": "BUF",
+      "game_id": "2026_04_NE_BUF",
+      "kickoff": ""
+    },
+    {
+      "week": 4,
+      "away": "NYJ",
+      "home": "CHI",
+      "game_id": "2026_04_NYJ_CHI",
+      "kickoff": ""
+    },
+    {
+      "week": 4,
+      "away": "DAL",
+      "home": "HOU",
+      "game_id": "2026_04_DAL_HOU",
+      "kickoff": ""
+    },
+    {
+      "week": 4,
+      "away": "LAR",
+      "home": "PHI",
+      "game_id": "2026_04_LAR_PHI",
+      "kickoff": ""
+    },
+    {
+      "week": 4,
+      "away": "GB",
+      "home": "TB",
+      "game_id": "2026_04_GB_TB",
+      "kickoff": ""
+    },
+    {
+      "week": 4,
+      "away": "TEN",
+      "home": "BAL",
+      "game_id": "2026_04_TEN_BAL",
+      "kickoff": ""
+    },
+    {
+      "week": 4,
+      "away": "JAX",
+      "home": "CIN",
+      "game_id": "2026_04_JAX_CIN",
+      "kickoff": ""
+    },
+    {
+      "week": 4,
+      "away": "MIA",
+      "home": "MIN",
+      "game_id": "2026_04_MIA_MIN",
+      "kickoff": ""
+    },
+    {
+      "week": 4,
+      "away": "KC",
+      "home": "LV",
+      "game_id": "2026_04_KC_LV",
+      "kickoff": ""
+    },
+    {
+      "week": 4,
+      "away": "LAC",
+      "home": "SEA",
+      "game_id": "2026_04_LAC_SEA",
+      "kickoff": ""
+    },
+    {
+      "week": 4,
+      "away": "DEN",
+      "home": "SF",
+      "game_id": "2026_04_DEN_SF",
+      "kickoff": ""
+    },
+    {
+      "week": 4,
+      "away": "DET",
+      "home": "CAR",
+      "game_id": "2026_04_DET_CAR",
+      "kickoff": ""
+    },
+    {
+      "week": 4,
+      "away": "ATL",
+      "home": "NO",
+      "game_id": "2026_04_ATL_NO",
+      "kickoff": ""
+    }
   ]
 }
